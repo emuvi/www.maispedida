@@ -1,0 +1,131 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url("./subtle.png");
+  font-size: 15px;
+  padding: 30px;
+}
+
+a {
+  color: #001180;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin-bottom: 27px;
+}
+
+main {
+  margin: auto;
+  max-width: 1000px;
+  background-color: #000000;
+  border: 1px solid #9b9b9b;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+header {
+  background-image: url("./cover.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 640px;
+}
+
+#divH1 {
+  position: relative;
+  top: 0px;
+  padding: 30px;
+}
+
+@font-face {
+  font-family: Kinkee;
+  src: url("./kinkee.ttf");
+}
+
+h1 {
+  padding: 15px;
+  font-family: Kinkee;
+  display: inline-block;
+  background-color: rgb(255, 228, 251);
+  border: 1px solid rgb(196, 178, 193);
+  border-radius: 12px;
+}
+
+#divH2 {
+  position: relative;
+  top: 350px;
+  text-align: right;
+  padding: 30px;
+}
+
+@font-face {
+  font-family: Omegle;
+  src: url("./omegle.ttf");
+}
+
+h2 {
+  padding: 15px;
+  font-family: Omegle;
+  display: inline-block;
+  background-color: rgb(255, 228, 251);
+  border: 1px solid rgb(196, 178, 193);
+  font-size: 24px;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 330px;
+}
+
+h3 {
+  font-family: Omegle;
+  font-size: 27px;
+  margin-top: 27px;
+  margin-bottom: 18px;
+}
+
+nav {
+  color: white;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 9px;
+  font-weight: bold;
+}
+
+nav div {
+  padding: 9px;
+}
+
+nav a {
+  color: white;
+}
+
+section {
+  background-color: rgb(255, 228, 251);
+  padding: 25px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+section div {
+  flex-grow: 1;
+  max-width: 420px;
+}
+
+footer {
+  padding: 18px;
+  text-align: center;
+  background-color: #bebebe;
+  font-size: 10px;
+  font-weight: bold;
+  border-top: 1px solid #919191;
+}
