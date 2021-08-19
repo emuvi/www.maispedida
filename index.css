@@ -6,13 +6,12 @@
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-image: url("./subtle.png");
-  font-size: 15px;
+  background-image: url("./paper.png");
   padding: 30px;
 }
 
 a {
-  color: #001180;
+  color: #000b53;
   text-decoration: none;
 }
 
@@ -21,15 +20,16 @@ a:hover {
 }
 
 p {
-  margin-bottom: 27px;
+  font-weight: 500;
+  font-size: 17px;
 }
 
 main {
   margin: auto;
   max-width: 1000px;
-  background-color: #000000;
-  border: 1px solid #9b9b9b;
-  border-radius: 3px;
+  background-color: #535353;
+  border: 2px solid #535353;
+  border-radius: 9px;
   overflow: hidden;
 }
 
@@ -87,23 +87,21 @@ h2 {
 h3 {
   font-family: Omegle;
   font-size: 27px;
-  margin-top: 27px;
-  margin-bottom: 18px;
+  margin-bottom: 3px;
 }
-
-
 
 section {
   background-color: rgb(255, 228, 251);
-  padding: 25px;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  padding: 45px 0px 0px 45px;
 }
 
 section div {
-  flex-grow: 1;
-  max-width: 420px;
+  flex: 1;
+  min-width: 300px;
+  margin: 0px 45px 45px 0px;
 }
 
 footer {
